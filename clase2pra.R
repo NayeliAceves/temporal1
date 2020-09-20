@@ -1,9 +1,9 @@
 # Objetivo de la clase de hoy: Clonar un proyecto, hacer fork, y realizar cambios.
 
-# Determinar una distribucion de la verdadera poblacion
-rm(list=ls())
-x1 <- rnorm(10000, 4,3) 
-plot(density(x1))
+Olga Nayeli Aceves Alvarez
+Tarea 2
+
+Cambios realizados
 
 plot(ecdf(x1))
 
@@ -30,13 +30,7 @@ Sigma <- matrix(c(10,3,3,2),2,2)
 X <- mvrnorm(n=1000, c(4,6), Sigma)
 plot(X[,1],X[,2])
 
-# modelo,(como modelador de los datos, conoces epsilon)
 
-beta <- c(4,-2, 9, -3)
-c <- 15
-epsilon = rnorm(1000,0,4)
-cuadrado <- X[,1]^2
-interaccion <- X[,1]*X[,2]
 
 X <- cbind(X, cuadrado, interaccion)
 
