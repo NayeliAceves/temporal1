@@ -1,11 +1,8 @@
 # Objetivo de la clase de hoy: Clonar un proyecto, hacer fork, y realizar cambios.
 
 # Determinar una distribucion de la verdadera poblacion
-rm(list=ls())
-x1 <- rnorm(10000, 4,3) 
-plot(density(x1))
-
-plot(ecdf(x1))
+#Olga Nayeli Aceves Alvarez
+# Modificacion en el trabajo
 
 x2 <- rgamma(10000,2,1.5)
 
@@ -27,8 +24,7 @@ rm(list=ls())
 
 Sigma <- matrix(c(10,3,3,2),2,2)
 
-X <- mvrnorm(n=1000, c(4,6), Sigma)
-plot(X[,1],X[,2])
+
 
 # modelo,(como modelador de los datos, conoces epsilon)
 #como dato a considerar se sabe que la media de epsilon es 0
